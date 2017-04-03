@@ -23,14 +23,17 @@
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yg5-I5-opZ">
                                 <rect key="frame" x="163" y="318" width="51" height="31"/>
+                                <accessibility key="accessibilityConfiguration" label="Second green switch"/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yje-L4-Rvf">
                                 <rect key="frame" x="163" y="394" width="51" height="31"/>
+                                <accessibility key="accessibilityConfiguration" label="Third red switch"/>
                                 <color key="onTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="thumbTintColor" red="1" green="0.80392158030000005" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PHg-Pd-lq7">
                                 <rect key="frame" x="163" y="242" width="51" height="31"/>
+                                <accessibility key="accessibilityConfiguration" label="First pink switch"/>
                                 <color key="onTintColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </switch>
                         </subviews>

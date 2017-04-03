@@ -36,15 +36,5 @@ class ViewController: UIViewController {
         yetAnotherSwitch.reactive.isOn <~ coolSwitch.reactive.isOnValues.map { !$0 }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func doSomethingCool(_ sender: Any) {
-        
-    }
-
-
 }
 
