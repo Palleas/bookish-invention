@@ -33,6 +33,8 @@
 		7A54C7C21E92DCD500DBCE49 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A54C7B11E92DCD500DBCE49 /* Yaml.framework */; };
 		7A54C7C31E92DCD500DBCE49 /* Yaml.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A54C7B11E92DCD500DBCE49 /* Yaml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7A9BCE071E92E8E30021EC0D /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9BCE061E92E8E30021EC0D /* Client.swift */; };
+		7A9BCE091E930B060021EC0D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9BCE081E930B060021EC0D /* SwiftyJSON.framework */; };
+		7A9BCE0A1E930B060021EC0D /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9BCE081E930B060021EC0D /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,7 @@
 				7A54C7B51E92DCD500DBCE49 /* Curry.framework in Embed Frameworks */,
 				7A54C7C31E92DCD500DBCE49 /* Yaml.framework in Embed Frameworks */,
 				7A54C7BB1E92DCD500DBCE49 /* ReactiveSwift.framework in Embed Frameworks */,
+				7A9BCE0A1E930B060021EC0D /* SwiftyJSON.framework in Embed Frameworks */,
 				7A54C7BD1E92DCD500DBCE49 /* Result.framework in Embed Frameworks */,
 				7A54C7B31E92DCD500DBCE49 /* Argo.framework in Embed Frameworks */,
 				7A54C7B91E92DCD500DBCE49 /* ReactiveCocoa.framework in Embed Frameworks */,
@@ -98,6 +101,7 @@
 		7A54C7B01E92DCD500DBCE49 /* Tentacle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tentacle.framework; path = Carthage/Build/iOS/Tentacle.framework; sourceTree = "<group>"; };
 		7A54C7B11E92DCD500DBCE49 /* Yaml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yaml.framework; path = Carthage/Build/iOS/Yaml.framework; sourceTree = "<group>"; };
 		7A9BCE061E92E8E30021EC0D /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		7A9BCE081E930B060021EC0D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				7A54C7B41E92DCD500DBCE49 /* Curry.framework in Frameworks */,
 				7A54C7C21E92DCD500DBCE49 /* Yaml.framework in Frameworks */,
 				7A54C7BA1E92DCD500DBCE49 /* ReactiveSwift.framework in Frameworks */,
+				7A9BCE091E930B060021EC0D /* SwiftyJSON.framework in Frameworks */,
 				7A54C7BC1E92DCD500DBCE49 /* Result.framework in Frameworks */,
 				7A54C7B21E92DCD500DBCE49 /* Argo.framework in Frameworks */,
 				7A54C7B81E92DCD500DBCE49 /* ReactiveCocoa.framework in Frameworks */,
@@ -137,6 +142,7 @@
 		7A54C7561E92D4BE00DBCE49 = {
 			isa = PBXGroup;
 			children = (
+				7A9BCE081E930B060021EC0D /* SwiftyJSON.framework */,
 				7A54C7A91E92DCD500DBCE49 /* Argo.framework */,
 				7A54C7AA1E92DCD500DBCE49 /* Curry.framework */,
 				7A54C7AB1E92DCD500DBCE49 /* KeychainSwift.framework */,
@@ -345,6 +351,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Runes.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Tentacle.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Yaml.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
 			name = "Copy Carthage franmeworks";
 			outputPaths = (

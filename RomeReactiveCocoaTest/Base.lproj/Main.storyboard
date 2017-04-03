@@ -36,12 +36,20 @@
                                 <accessibility key="accessibilityConfiguration" label="First pink switch"/>
                                 <color key="onTintColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TO4-Fm-pAk">
+                                <rect key="frame" x="154.5" y="120" width="66.5" height="33.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="TO4-Fm-pAk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="5y7-0I-Lis"/>
                             <constraint firstItem="yje-L4-Rvf" firstAttribute="top" secondItem="Yg5-I5-opZ" secondAttribute="bottom" constant="45" id="7Xy-5e-kK6"/>
                             <constraint firstItem="Yg5-I5-opZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Inb-Iq-7nU"/>
                             <constraint firstItem="yje-L4-Rvf" firstAttribute="centerX" secondItem="Yg5-I5-opZ" secondAttribute="centerX" id="Lew-Zg-umr"/>
+                            <constraint firstItem="TO4-Fm-pAk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eht-q0-nfo"/>
                             <constraint firstItem="Yg5-I5-opZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lKp-qa-oaN"/>
                             <constraint firstItem="Yg5-I5-opZ" firstAttribute="centerX" secondItem="PHg-Pd-lq7" secondAttribute="centerX" id="rJf-R7-rFj"/>
                             <constraint firstItem="Yg5-I5-opZ" firstAttribute="top" secondItem="PHg-Pd-lq7" secondAttribute="bottom" constant="45" id="wLZ-BG-tvm"/>
@@ -50,11 +58,13 @@
                     <connections>
                         <outlet property="coolSwitch" destination="Yg5-I5-opZ" id="V0J-Wu-rgd"/>
                         <outlet property="otherSwitch" destination="PHg-Pd-lq7" id="G9v-KJ-YFE"/>
+                        <outlet property="welcomeLabel" destination="TO4-Fm-pAk" id="QyX-PT-0CI"/>
                         <outlet property="yetAnotherSwitch" destination="yje-L4-Rvf" id="WpS-LJ-yDL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
         </scene>
     </scenes>
 </document>

@@ -13,6 +13,7 @@ import Result
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var welcomeLabel: UILabel!
     @IBOutlet weak var coolSwitch: UISwitch!
     @IBOutlet weak var otherSwitch: UISwitch!
     @IBOutlet weak var yetAnotherSwitch: UISwitch!
@@ -20,7 +21,9 @@ class ViewController: UIViewController {
     let coolAction = Action<Bool, Bool, NoError> { input in
         return SignalProducer(value: input)
     }
-
+    
+    private let client = Client()
+    
     var switchAction: CocoaAction<UISwitch>!
 
     override func viewDidLoad() {
@@ -34,6 +37,12 @@ class ViewController: UIViewController {
         
         otherSwitch.reactive.isOn <~ coolSwitch.reactive.isOnValues
         yetAnotherSwitch.reactive.isOn <~ coolSwitch.reactive.isOnValues.map { !$0 }
+        
+        let nameProducer = client.user()
+            .map { return "Welcome, \($0.name)!"}
+            .flatMapError { _ in SignalProducer<String, NoError>.empty }
+        
+        welcomeLabel.reactive.text <~ nameProducer
     }
 
 }
