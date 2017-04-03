@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-exit 0
 
 echo "Installing Rome..."
 make dependencies > /dev/null 2>&1
