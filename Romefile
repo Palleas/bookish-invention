@@ -1,0 +1,6 @@
+[Cache]
+  S3-Bucket = buddybuild-test-carthage-rome
+
+[RepositoryMap]
+  YamlSwift = Yaml
+  keychain-swift = KeychainSwift

@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A54C7631E92D4BE00DBCE49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54C7621E92D4BE00DBCE49 /* AppDelegate.swift */; };
+		7A54C7651E92D4BE00DBCE49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54C7641E92D4BE00DBCE49 /* ViewController.swift */; };
+		7A54C7681E92D4BE00DBCE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A54C7661E92D4BE00DBCE49 /* Main.storyboard */; };
+		7A54C76A1E92D4BE00DBCE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A54C7691E92D4BE00DBCE49 /* Assets.xcassets */; };
+		7A54C76D1E92D4BE00DBCE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A54C76B1E92D4BE00DBCE49 /* LaunchScreen.storyboard */; };
+		7A54C7781E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54C7771E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests.swift */; };
+		7A54C7831E92D4BE00DBCE49 /* RomeReactiveCocoaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54C7821E92D4BE00DBCE49 /* RomeReactiveCocoaTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A54C7741E92D4BE00DBCE49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A54C7571E92D4BE00DBCE49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A54C75E1E92D4BE00DBCE49;
+			remoteInfo = RomeReactiveCocoaTest;
+		};
+		7A54C77F1E92D4BE00DBCE49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A54C7571E92D4BE00DBCE49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A54C75E1E92D4BE00DBCE49;
+			remoteInfo = RomeReactiveCocoaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A54C75F1E92D4BE00DBCE49 /* RomeReactiveCocoaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomeReactiveCocoaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A54C7621E92D4BE00DBCE49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A54C7641E92D4BE00DBCE49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A54C7671E92D4BE00DBCE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A54C7691E92D4BE00DBCE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A54C76C1E92D4BE00DBCE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A54C76E1E92D4BE00DBCE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A54C7731E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomeReactiveCocoaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A54C7771E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomeReactiveCocoaTestTests.swift; sourceTree = "<group>"; };
+		7A54C7791E92D4BE00DBCE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A54C77E1E92D4BE00DBCE49 /* RomeReactiveCocoaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomeReactiveCocoaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A54C7821E92D4BE00DBCE49 /* RomeReactiveCocoaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomeReactiveCocoaTestUITests.swift; sourceTree = "<group>"; };
+		7A54C7841E92D4BE00DBCE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A54C75C1E92D4BE00DBCE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A54C7701E92D4BE00DBCE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A54C77B1E92D4BE00DBCE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A54C7561E92D4BE00DBCE49 = {
+			isa = PBXGroup;
+			children = (
+				7A54C7611E92D4BE00DBCE49 /* RomeReactiveCocoaTest */,
+				7A54C7761E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests */,
+				7A54C7811E92D4BE00DBCE49 /* RomeReactiveCocoaTestUITests */,
+				7A54C7601E92D4BE00DBCE49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A54C7601E92D4BE00DBCE49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A54C75F1E92D4BE00DBCE49 /* RomeReactiveCocoaTest.app */,
+				7A54C7731E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests.xctest */,
+				7A54C77E1E92D4BE00DBCE49 /* RomeReactiveCocoaTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A54C7611E92D4BE00DBCE49 /* RomeReactiveCocoaTest */ = {
+			isa = PBXGroup;
+			children = (
+				7A54C7621E92D4BE00DBCE49 /* AppDelegate.swift */,
+				7A54C7641E92D4BE00DBCE49 /* ViewController.swift */,
+				7A54C7661E92D4BE00DBCE49 /* Main.storyboard */,
+				7A54C7691E92D4BE00DBCE49 /* Assets.xcassets */,
+				7A54C76B1E92D4BE00DBCE49 /* LaunchScreen.storyboard */,
+				7A54C76E1E92D4BE00DBCE49 /* Info.plist */,
+			);
+			path = RomeReactiveCocoaTest;
+			sourceTree = "<group>";
+		};
+		7A54C7761E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A54C7771E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests.swift */,
+				7A54C7791E92D4BE00DBCE49 /* Info.plist */,
+			);
+			path = RomeReactiveCocoaTestTests;
+			sourceTree = "<group>";
+		};
+		7A54C7811E92D4BE00DBCE49 /* RomeReactiveCocoaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A54C7821E92D4BE00DBCE49 /* RomeReactiveCocoaTestUITests.swift */,
+				7A54C7841E92D4BE00DBCE49 /* Info.plist */,
+			);
+			path = RomeReactiveCocoaTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A54C75E1E92D4BE00DBCE49 /* RomeReactiveCocoaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A54C7871E92D4BE00DBCE49 /* Build configuration list for PBXNativeTarget "RomeReactiveCocoaTest" */;
+			buildPhases = (
+				7A54C75B1E92D4BE00DBCE49 /* Sources */,
+				7A54C75C1E92D4BE00DBCE49 /* Frameworks */,
+				7A54C75D1E92D4BE00DBCE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomeReactiveCocoaTest;
+			productName = RomeReactiveCocoaTest;
+			productReference = 7A54C75F1E92D4BE00DBCE49 /* RomeReactiveCocoaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A54C7721E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A54C78A1E92D4BE00DBCE49 /* Build configuration list for PBXNativeTarget "RomeReactiveCocoaTestTests" */;
+			buildPhases = (
+				7A54C76F1E92D4BE00DBCE49 /* Sources */,
+				7A54C7701E92D4BE00DBCE49 /* Frameworks */,
+				7A54C7711E92D4BE00DBCE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A54C7751E92D4BE00DBCE49 /* PBXTargetDependency */,
+			);
+			name = RomeReactiveCocoaTestTests;
+			productName = RomeReactiveCocoaTestTests;
+			productReference = 7A54C7731E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A54C77D1E92D4BE00DBCE49 /* RomeReactiveCocoaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A54C78D1E92D4BE00DBCE49 /* Build configuration list for PBXNativeTarget "RomeReactiveCocoaTestUITests" */;
+			buildPhases = (
+				7A54C77A1E92D4BE00DBCE49 /* Sources */,
+				7A54C77B1E92D4BE00DBCE49 /* Frameworks */,
+				7A54C77C1E92D4BE00DBCE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A54C7801E92D4BE00DBCE49 /* PBXTargetDependency */,
+			);
+			name = RomeReactiveCocoaTestUITests;
+			productName = RomeReactiveCocoaTestUITests;
+			productReference = 7A54C77E1E92D4BE00DBCE49 /* RomeReactiveCocoaTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A54C7571E92D4BE00DBCE49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Perfectly-Cooked";
+				TargetAttributes = {
+					7A54C75E1E92D4BE00DBCE49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8VS9JKFDZS;
+						ProvisioningStyle = Automatic;
+					};
+					7A54C7721E92D4BE00DBCE49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8VS9JKFDZS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A54C75E1E92D4BE00DBCE49;
+					};
+					7A54C77D1E92D4BE00DBCE49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8VS9JKFDZS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A54C75E1E92D4BE00DBCE49;
+					};
+				};
+			};
+			buildConfigurationList = 7A54C75A1E92D4BE00DBCE49 /* Build configuration list for PBXProject "RomeReactiveCocoaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A54C7561E92D4BE00DBCE49;
+			productRefGroup = 7A54C7601E92D4BE00DBCE49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A54C75E1E92D4BE00DBCE49 /* RomeReactiveCocoaTest */,
+				7A54C7721E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests */,
+				7A54C77D1E92D4BE00DBCE49 /* RomeReactiveCocoaTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A54C75D1E92D4BE00DBCE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A54C76D1E92D4BE00DBCE49 /* LaunchScreen.storyboard in Resources */,
+				7A54C76A1E92D4BE00DBCE49 /* Assets.xcassets in Resources */,
+				7A54C7681E92D4BE00DBCE49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A54C7711E92D4BE00DBCE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A54C77C1E92D4BE00DBCE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A54C75B1E92D4BE00DBCE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A54C7651E92D4BE00DBCE49 /* ViewController.swift in Sources */,
+				7A54C7631E92D4BE00DBCE49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A54C76F1E92D4BE00DBCE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A54C7781E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A54C77A1E92D4BE00DBCE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A54C7831E92D4BE00DBCE49 /* RomeReactiveCocoaTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A54C7751E92D4BE00DBCE49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A54C75E1E92D4BE00DBCE49 /* RomeReactiveCocoaTest */;
+			targetProxy = 7A54C7741E92D4BE00DBCE49 /* PBXContainerItemProxy */;
+		};
+		7A54C7801E92D4BE00DBCE49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A54C75E1E92D4BE00DBCE49 /* RomeReactiveCocoaTest */;
+			targetProxy = 7A54C77F1E92D4BE00DBCE49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A54C7661E92D4BE00DBCE49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A54C7671E92D4BE00DBCE49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A54C76B1E92D4BE00DBCE49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A54C76C1E92D4BE00DBCE49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A54C7851E92D4BE00DBCE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A54C7861E92D4BE00DBCE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A54C7881E92D4BE00DBCE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8VS9JKFDZS;
+				INFOPLIST_FILE = RomeReactiveCocoaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-cooked.RomeReactiveCocoaTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A54C7891E92D4BE00DBCE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8VS9JKFDZS;
+				INFOPLIST_FILE = RomeReactiveCocoaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-cooked.RomeReactiveCocoaTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7A54C78B1E92D4BE00DBCE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8VS9JKFDZS;
+				INFOPLIST_FILE = RomeReactiveCocoaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-cooked.RomeReactiveCocoaTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomeReactiveCocoaTest.app/RomeReactiveCocoaTest";
+			};
+			name = Debug;
+		};
+		7A54C78C1E92D4BE00DBCE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8VS9JKFDZS;
+				INFOPLIST_FILE = RomeReactiveCocoaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-cooked.RomeReactiveCocoaTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomeReactiveCocoaTest.app/RomeReactiveCocoaTest";
+			};
+			name = Release;
+		};
+		7A54C78E1E92D4BE00DBCE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8VS9JKFDZS;
+				INFOPLIST_FILE = RomeReactiveCocoaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-cooked.RomeReactiveCocoaTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RomeReactiveCocoaTest;
+			};
+			name = Debug;
+		};
+		7A54C78F1E92D4BE00DBCE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8VS9JKFDZS;
+				INFOPLIST_FILE = RomeReactiveCocoaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-cooked.RomeReactiveCocoaTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RomeReactiveCocoaTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A54C75A1E92D4BE00DBCE49 /* Build configuration list for PBXProject "RomeReactiveCocoaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A54C7851E92D4BE00DBCE49 /* Debug */,
+				7A54C7861E92D4BE00DBCE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A54C7871E92D4BE00DBCE49 /* Build configuration list for PBXNativeTarget "RomeReactiveCocoaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A54C7881E92D4BE00DBCE49 /* Debug */,
+				7A54C7891E92D4BE00DBCE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A54C78A1E92D4BE00DBCE49 /* Build configuration list for PBXNativeTarget "RomeReactiveCocoaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A54C78B1E92D4BE00DBCE49 /* Debug */,
+				7A54C78C1E92D4BE00DBCE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A54C78D1E92D4BE00DBCE49 /* Build configuration list for PBXNativeTarget "RomeReactiveCocoaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A54C78E1E92D4BE00DBCE49 /* Debug */,
+				7A54C78F1E92D4BE00DBCE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A54C7571E92D4BE00DBCE49 /* Project object */;
+}
