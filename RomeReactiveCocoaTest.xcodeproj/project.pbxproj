@@ -35,6 +35,9 @@
 		7A9BCE071E92E8E30021EC0D /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9BCE061E92E8E30021EC0D /* Client.swift */; };
 		7A9BCE091E930B060021EC0D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9BCE081E930B060021EC0D /* SwiftyJSON.framework */; };
 		7A9BCE0A1E930B060021EC0D /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9BCE081E930B060021EC0D /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7AE6D66D1E930DEF006D090A /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6D66C1E930DEF006D090A /* ClientTests.swift */; };
+		7AE6D66E1E930E72006D090A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A54C7AD1E92DCD500DBCE49 /* ReactiveSwift.framework */; };
+		7AE6D66F1E930E72006D090A /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A54C7AE1E92DCD500DBCE49 /* Result.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +105,7 @@
 		7A54C7B11E92DCD500DBCE49 /* Yaml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yaml.framework; path = Carthage/Build/iOS/Yaml.framework; sourceTree = "<group>"; };
 		7A9BCE061E92E8E30021EC0D /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		7A9BCE081E930B060021EC0D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		7AE6D66C1E930DEF006D090A /* ClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE6D66E1E930E72006D090A /* ReactiveSwift.framework in Frameworks */,
+				7AE6D66F1E930E72006D090A /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +194,7 @@
 			children = (
 				7A54C7771E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests.swift */,
 				7A54C7791E92D4BE00DBCE49 /* Info.plist */,
+				7AE6D66C1E930DEF006D090A /* ClientTests.swift */,
 			);
 			path = RomeReactiveCocoaTestTests;
 			sourceTree = "<group>";
@@ -377,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE6D66D1E930DEF006D090A /* ClientTests.swift in Sources */,
 				7A54C7781E92D4BE00DBCE49 /* RomeReactiveCocoaTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,6 +565,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8VS9JKFDZS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RomeReactiveCocoaTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-cooked.RomeReactiveCocoaTestTests";
@@ -572,6 +584,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8VS9JKFDZS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RomeReactiveCocoaTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-cooked.RomeReactiveCocoaTestTests";
