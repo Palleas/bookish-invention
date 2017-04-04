@@ -6,6 +6,11 @@
 //  Copyright © 2017 Perfectly-Cooked. All rights reserved.
 //
 
+/// Implicit ReactiveCocoa Dependencies
+
+import CoreLocation
+import MapKit
+
 import UIKit
 
 @UIApplicationMain
